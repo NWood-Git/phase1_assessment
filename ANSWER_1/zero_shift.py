@@ -1,3 +1,4 @@
+# The time complexity (Big-O) of this algorithm is <your answer here>
 
 def zero_shift(alist)
     pass

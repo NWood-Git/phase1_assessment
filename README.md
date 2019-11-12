@@ -39,36 +39,35 @@ has the elements from the argument in the zero-shifted order.
 * In a seed.py file, write python sqlite3 code to add two campuses for New York, NY and Houston, TX to the database. Insert the following students:
 
 ```
-first, last, id, GPA
+first, last, GPA
 
 In New York, NY:
 
-Lockett, Walker, S000000001, 3.1
-Coleman, Casey, S000000002, 2.7
-Kilome, Franklyn, S000000003, 3.8
-Santiago, Hecton, S000000004, 2.9
+Lockett, Walker, 3.1
+Coleman, Casey, 2.7
+Kilome, Franklyn, 3.8
+Santiago, Hecton, 2.9
 
 In Houston, TX:
 
-Valdez, Framber, S000000005, 3.9
-Peacock, Brad, S000000006, 2.8
-Guduan, Reymin, S000000007, 3.5
-Cole, Gerrit, S000000008, 3.0
+Valdez, Framber, 3.9
+Peacock, Brad, 2.8
+Guduan, Reymin, 3.5
+Cole, Gerrit, 3.0
 ```
 
-* After creating the rows, update Fraknlyn Kilome's GPA to 2.5
+* After inserting the rows, update Fraknlyn Kilome's GPA to 2.5
 
 * Write a python function that takes a city and state argument and returns the
 average GPA for the students on that campus.
 
-* Write a SQL SELECT statement to get the student ids of all students in New York with a GPA over 3.0. Do not select based on an integer foreign key, use a join
-and select by the city name.
+* Write a SQL SELECT statement to get the last names of all students in New York with a GPA over 3.0. Do not select based on an integer foreign key, use a join and select by the city name.
 
 #### Question 3: Data Plot
 
 * Run jupyter notebook from inside the problem 3 directory. Open the starter notebook.
 
-* Load the Winemag csv data into a Pandas dataframe and create a scatter plot with x = price and y = points for ONLY the US wines.
+* Load the Winemag csv data into a Pandas dataframe and create a scatter plot with x = price and y = points.
 
 * Your work should be submitted as the ipynb file.
 
