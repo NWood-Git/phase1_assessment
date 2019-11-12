@@ -66,13 +66,11 @@ and select by the city name.
 
 #### Question 3: Data Plot
 
-* Download this .csv of wine scores. You may have to create a free account:
+* Run jupyter notebook from inside the problem 3 directory. Open the starter notebook.
 
-<https://www.kaggle.com/zynicide/wine-reviews/downloads/winemag-data-130k-v2.csv/4>
+* Load the Winemag csv data into a Pandas dataframe and create a scatter plot with x = price and y = points for ONLY the US wines.
 
-* Load the Winemag csv data into a Pandas dataframe and create a scatter plot with x = price and y = points for ONLY the US wines. Save your work to a jupyter ipynb.
-
-* Submit your answer to this question in the form of a jupityr notebook file.
+* Your work should be submitted as the ipynb file.
 
 #### Question 4: Object Orientation
 
